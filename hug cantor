@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Cantor | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+    
+    <!-- En-tête / Hero Section -->
+    <header class="max-w-4xl mx-auto px-6 py-24 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Bonjour, je suis Hugo Cantor</h1>
+        <h2 class="text-2xl text-blue-600 font-semibold mb-6">Étudiant en BUT Informatique & Futur Pentester</h2>
+        <p class="text-slate-600 mb-10 leading-relaxed text-lg max-w-2xl mx-auto">
+            Basé à Aix-en-Provence, je suis passionné par le développement et la cybersécurité. 
+            Mon objectif : valider mon BUT, intégrer une école d'ingénieur ou un Master, et devenir un expert en tests d'intrusion.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="#competences" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition font-medium">Mes compétences</a>
+            <a href="#projets" class="bg-white text-blue-600 border border-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition font-medium">Mes projets</a>
+        </div>
+    </header>
+
+    <!-- Passions & Compétences -->
+    <section id="competences" class="bg-white py-16 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-2xl font-bold text-blue-900 mb-8 text-center">Mes Domaines d'Expertise</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Cybersécurité -->
+                <div class="bg-slate-50 p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🛡️</div>
+                    <h4 class="font-bold text-lg mb-2 text-slate-800">Cybersécurité</h4>
+                    <p class="text-slate-600 text-sm">Pratique active sur l'environnement Kali Linux et les machines vulnérables. Résolution de challenges CTF (OverTheWire) et analyse réseau.</p>
+                </div>
+                <!-- Développement -->
+                <div class="bg-slate-50 p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">💻</div>
+                    <h4 class="font-bold text-lg mb-2 text-slate-800">Développement</h4>
+                    <p class="text-slate-600 text-sm">Programmation orientée objet en C++ et développement de prototypes web (HTML, CSS, JS) sous environnement Ubuntu.</p>
+                </div>
+                <!-- Sport & Rigueur -->
+                <div class="bg-slate-50 p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🏃</div>
+                    <h4 class="font-bold text-lg mb-2 text-slate-800">Rigueur & Sport</h4>
+                    <p class="text-slate-600 text-sm">Pratique régulière de la course à pied (10km en 45min) et du tennis. Le sport m'apporte la discipline et la persévérance nécessaires en informatique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="py-16">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-2xl font-bold text-blue-900 mb-8 text-center">Projets Récents</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Projet 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:border-blue-300 transition">
+                    <h4 class="font-bold text-lg mb-2 text-blue-700">Plateforme SideQuest</h4>
+                    <p class="text-slate-600 text-sm">Développement d'une application web de partage de compétences incluant un module d'apprentissage gamifié et un terminal interactif.</p>
+                </div>
+                <!-- Projet 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:border-blue-300 transition">
+                    <h4 class="font-bold text-lg mb-2 text-blue-700">Audit & RSE : Enercoop</h4>
+                    <p class="text-slate-600 text-sm">Projet académique de groupe (SAÉ). Rédaction d'un rapport détaillé évaluant la coopérative GreenTech Enercoop, axé sur le Green IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+        <p>© 2026 Hugo Cantor. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
